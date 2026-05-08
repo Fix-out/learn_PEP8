@@ -11,7 +11,6 @@ def check_values(a,b):
         elif a == b:
             return 0
 
-
 flag = True
 
 while flag is True:
