@@ -11,6 +11,7 @@ class Animal:
     def info(self):
         print(f"{self.name}, {self.age} years, {self.weight} kg")
 
+
 class Cat(Animal):
     def __init__(self, name, age, weight, breed):
         super().__init__(name, age, weight)
